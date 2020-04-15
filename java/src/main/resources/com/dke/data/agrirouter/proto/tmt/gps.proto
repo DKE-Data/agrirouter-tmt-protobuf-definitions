@@ -19,6 +19,11 @@ message GPSList{
             D_ERROR = 14;
             D_NOT_AVAILABLE = 15;
         }
+        enum FieldStatus {
+            FS_UNKNOWN = 0;
+            FS_INFIELD = 1;
+            FS_STREET = 2;
+        }
         double position_north = 1;
         double position_east = 2;
         sint64 position_up = 3;
@@ -27,6 +32,7 @@ message GPSList{
         double hdop = 6;
         uint32 number_of_satellites = 7;
         google.protobuf.Timestamp gps_utc_timestamp = 8;
+        FieldStatus field_status = 9;
         repeated google.protobuf.Any extension = 2048;  // Used for proprietary purposes
     }
     repeated GPSEntry entries = 1;
