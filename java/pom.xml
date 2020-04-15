@@ -97,7 +97,7 @@
 
     <profiles>
         <profile>
-            <id>generate-protobuf-api</id>
+            <id>generate-protobuf-tmt</id>
             <build>
                 <plugins>
                     <plugin>
