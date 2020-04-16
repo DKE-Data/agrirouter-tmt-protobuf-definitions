@@ -6,7 +6,6 @@ mkdir generated
 mkdir generated/Agrirouter
 mkdir generated/Agrirouter/TMT
 
-
 printf 'Generating files | TMT\n\n' 
 protoc -Igoogle/protobuf -Iagrirouter/protobuf/ --csharp_out=generated/Agrirouter/TMT agrirouter/protobuf/tmt/*.proto
 
