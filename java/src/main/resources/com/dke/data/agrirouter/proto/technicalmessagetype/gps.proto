@@ -1,5 +1,5 @@
 syntax = "proto3";
-package agrirouter.tmt;
+package agrirouter.technicalmessagetype;
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/any.proto";
 

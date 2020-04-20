@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgrirouterTMTProtobufDefinitions", "AgrirouterTMTProtobufDefinitions\AgrirouterTMTProtobufDefinitions.csproj", "{BF838091-B559-405B-84A4-53C9DC633204}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgrirouterTechnicalMessageTypeProtobufDefinitions", "AgrirouterTechnicalMessageTypeProtobufDefinitions\AgrirouterTechnicalMessageTypeProtobufDefinitions.csproj", "{BF838091-B559-405B-84A4-53C9DC633204}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -61,5 +61,5 @@ jobs:
         uses: actions/checkout@master
       - name: Build solution and generate NuGet package
         run: |
-          cd .\dotnet\AgrirouterTMTProtobufDefinitions\
+          cd .\dotnet\AgrirouterTechnicalMessageTypeProtobufDefinitions\
           dotnet pack -c Release -o out
