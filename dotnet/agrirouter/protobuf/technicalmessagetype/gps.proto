@@ -22,7 +22,8 @@ message GPSList{
         enum FieldStatus {
             FS_UNKNOWN = 0;
             FS_INFIELD = 1;
-            FS_STREET = 2;
+            FS_ONROAD = 2;
+            FS_OFFROAD = 3;
         }
         double position_north = 1;
         double position_east = 2;
