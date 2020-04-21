@@ -17,7 +17,7 @@ jobs:
       - name: Build with Maven
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -B deploy --file pom.xml --settings ci/settings.xml
+        run: mvn -B deploy --file java/pom.xml --settings java/ci/settings.xml
   deploy_nuget_packages:
     runs-on: windows-latest
     steps:
