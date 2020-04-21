@@ -17,8 +17,6 @@ As a universal data exchange platform, agrirouter fills a gap on the way to Farm
 
 This project contains the Google Protocol Buffer (protobuf) definitions for those technical message types, that are exchanged as protobuf objects. For more informations see the technical integration guide link:https://github.com/DKE-Data/agrirouter-interface-documentation[here].
 
-== Project status
-image::https://travis-ci.com/DKE-Data/agrirouter-tmt-protobuf-definitions.svg?branch=develop[Build status]
 
 == External resources
 
