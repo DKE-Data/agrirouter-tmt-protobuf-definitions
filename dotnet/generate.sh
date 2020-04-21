@@ -10,8 +10,8 @@ printf 'Generating files | TechnicalMessageTypes\n\n'
 protoc -Igoogle/protobuf -Iagrirouter/protobuf --csharp_out=generated/Agrirouter/TechnicalMessageType agrirouter/protobuf/technicalmessagetype/*.proto
 
 printf 'Exchange files from the solution.\n\n'
-rm -rf AgrirouterTechnicalMessageTypeProtobufDefinitions/AgrirouterTechnicalMessageTypeProtobufDefinitions/Agrirouter
-mv generated/Agrirouter AgrirouterTechnicalMessageTypeProtobufDefinitions/AgrirouterTechnicalMessageTypeProtobufDefinitions
+rm -rf AgrirouterTMTProtobufDefinitions/AgrirouterTMTProtobufDefinitions/Agrirouter
+mv generated/Agrirouter AgrirouterTMTProtobufDefinitions/AgrirouterTMTProtobufDefinitions
 
 printf 'Clean up.\n\n'
 rm -rf generated
