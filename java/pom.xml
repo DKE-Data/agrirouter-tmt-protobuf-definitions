@@ -24,6 +24,11 @@
             <name>Sascha Doemer</name>
             <email>Cf4ThQgxcnxAovOUXTNv@saschadoemer.de</email>
         </developer>
+        <developer>
+            <id>frankwiebeler</id>
+            <name>Frank Wiebeler</name>
+            <email>dke-protobuf-tmt@dev4agriculture.de</email>
+        </developer>
     </developers>
 
     <scm>
